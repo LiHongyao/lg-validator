@@ -1,6 +1,24 @@
 # 概述
 本库提供常用正则表达式验证
 
+# 使用
+1. 安装
+```shell
+$ npm install lg-validator
+# OR
+$ yarn add lg-validator
+```
+2. 使用
+```typescript
+import Validator from 'lg-validator';
+if(Validator.ios()) {
+  console.log('iOS环境');
+}
+if(Validator.tel('17398888669')) {
+  console.log('手机号验证通过');
+}
+```
+
 # API
 ```
 /**
