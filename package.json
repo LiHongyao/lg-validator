@@ -1,6 +1,6 @@
 {
   "name": "lg-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -15,7 +15,9 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LiHongyao/lg-validator.git"
