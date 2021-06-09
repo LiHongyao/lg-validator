@@ -1,10 +1,9 @@
 /*
  * @Author: Li-HONGYAO
- * @Date: 2021-04-07 17:58:56
- * @LastEditTime: 2021-06-09 11:55:36
+ * @Date: 2020-11-28 03:43:56
  * @LastEditors: Li-HONGYAO
- * @Description: 
- * @FilePath: \lg-validator\src\index.ts
+ * @LastEditTime: 2021-06-09 11:56:06
+ * @Description:
  */
 class Validator {
   /**
