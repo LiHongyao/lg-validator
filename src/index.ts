@@ -1,3 +1,11 @@
+/*
+ * @Author: Li-HONGYAO
+ * @Date: 2021-04-07 17:58:56
+ * @LastEditTime: 2021-06-09 11:55:36
+ * @LastEditors: Li-HONGYAO
+ * @Description: 
+ * @FilePath: \lg-validator\src\index.ts
+ */
 class Validator {
   /**
    * 中文名校验
@@ -75,7 +83,7 @@ class Validator {
    * 验证是否是刘海屏
    */
   public static bangScreen() {
-    return window && Validator.ios() && window.screen.height >= 812 && window.devicePixelRatio >= 2;
+    return window && window.screen.height >= 812 && window.devicePixelRatio >= 2;
   }
 }
 
